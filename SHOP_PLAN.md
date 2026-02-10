@@ -75,7 +75,6 @@ src/
 
 #### Txchyon Operator Pack - $59
 - All playbooks
-- Private Discord access (future)
 
 ---
 

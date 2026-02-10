@@ -3,6 +3,7 @@ import { Header } from "@/components/layout/header";
 import { Footer } from "@/components/layout/footer";
 import { Button } from "@/components/ui/button";
 import { products, solWallet, shopEmail } from "@/lib/products";
+import { cn } from "@/lib/utils";
 import { BadgeCheck, Lock, Zap, Shield, BookOpen, Layers, MonitorPlay } from "lucide-react";
 
 export default function Home() {

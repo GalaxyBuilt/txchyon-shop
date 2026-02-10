@@ -179,8 +179,7 @@ export const products: { playbooks: Product[]; bundles: Bundle[] } = {
             features: [
                 "All 5 playbooks included",
                 "Future playbooks (free)",
-                "Priority email support",
-                "Private Discord access (coming soon)"
+                "Priority email support"
             ],
             stripeLink: "#",
             recommended: true
