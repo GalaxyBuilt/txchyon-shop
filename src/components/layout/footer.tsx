@@ -6,7 +6,14 @@ export function Footer() {
             <div className="container mx-auto px-4">
                 <div className="grid grid-cols-1 md:grid-cols-4 gap-8 mb-12">
                     <div className="col-span-1 md:col-span-2">
-                        <Link href="/" className="flex items-center gap-2 mb-4">
+                        <Link href="/" className="flex items-center gap-3 mb-4">
+                            <div className="h-8 w-8 overflow-hidden rounded-lg">
+                                <img
+                                    src="/logo.png"
+                                    alt="Txchyon Logo"
+                                    className="h-full w-full object-contain"
+                                />
+                            </div>
                             <span className="text-xl font-bold tracking-tight text-white">
                                 Txchyon <span className="text-cyan-500">Shop</span>
                             </span>
@@ -42,9 +49,14 @@ export function Footer() {
                 </div>
 
                 <div className="pt-8 border-t border-white/10 flex flex-col md:flex-row justify-between items-center gap-4">
-                    <p className="text-xs text-gray-500">
-                        © {new Date().getFullYear()} Txchyon Labs. All rights reserved.
-                    </p>
+                    <div className="flex flex-col gap-1">
+                        <p className="text-xs text-gray-500">
+                            © {new Date().getFullYear()} Txchyon Labs. All rights reserved.
+                        </p>
+                        <p className="text-[10px] text-gray-600">
+                            Powered By <a href="https://galaxybuilt.pages.dev" target="_blank" rel="noopener noreferrer" className="hover:text-cyan-400 transition-colors font-medium">GalaxyBuilt</a>
+                        </p>
+                    </div>
                     <p className="text-xs text-gray-600 flex items-center gap-2">
                         <span className="h-2 w-2 rounded-full bg-green-500 animate-pulse"></span>
                         All Systems Operational
