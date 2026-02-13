@@ -54,7 +54,7 @@ export function Footer() {
                             © {new Date().getFullYear()} Txchyon Labs. All rights reserved.
                         </p>
                         <p className="text-[10px] text-gray-600">
-                            Powered By <a href="https://galaxybuilt.pages.dev" target="_blank" rel="noopener noreferrer" className="hover:text-cyan-400 transition-colors font-medium">GalaxyBuilt</a>
+                            Powered by <a href="https://everrank.app" target="_blank" rel="noopener noreferrer" className="hover:text-cyan-400 transition-colors font-medium">EverRank</a>, and created by <a href="https://galaxybuilt.dev" target="_blank" rel="noopener noreferrer" className="hover:text-cyan-400 transition-colors font-medium">GalaxyBuilt</a>
                         </p>
                     </div>
                     <p className="text-xs text-gray-600 flex items-center gap-2">
