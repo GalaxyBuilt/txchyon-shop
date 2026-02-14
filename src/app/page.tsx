@@ -154,7 +154,7 @@ export default function Home() {
                         <div className="text-2xl font-black text-white">${product.price}</div>
                       </div>
                       <Button variant="outline" size="sm" className="rounded-xl border-white/10 bg-white/5 hover:bg-white/10 font-black uppercase text-[10px] tracking-widest px-6" asChild>
-                        <Link href={`/product/${product.slug}`}>
+                        <Link href={`/shop/product/${product.slug}`}>
                           Vault View
                         </Link>
                       </Button>

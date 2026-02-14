@@ -34,7 +34,7 @@ export default function SuccessPage() {
 
                         <div className="flex flex-col gap-4">
                             <Button variant="gradient" size="lg" className="w-full" asChild>
-                                <Link href="/#playbooks">
+                                <Link href="/shop#playbooks">
                                     Browse More Playbooks <ArrowRight className="ml-2 h-4 w-4" />
                                 </Link>
                             </Button>
