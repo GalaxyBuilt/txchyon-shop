@@ -30,14 +30,14 @@ export const metadata: Metadata = {
   openGraph: {
     title: "Txchyon Shop | Institutional Knowledge Vault",
     description: "Access institutional-grade crypto playbooks and operational systems.",
-    images: ['/logo.png'],
+    images: ['https://txchyon.com/images/logo.png'],
     type: 'website',
   },
   twitter: {
     card: 'summary_large_image',
     title: "Txchyon Shop | Institutional Knowledge Vault",
     description: "Access institutional-grade crypto playbooks and operational systems.",
-    images: ['/logo.png'],
+    images: ['https://txchyon.com/images/logo.png'],
   }
 };
 
