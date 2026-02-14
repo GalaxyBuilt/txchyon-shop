@@ -9,9 +9,9 @@ export function Footer() {
                         <Link href="/" className="flex items-center gap-3 mb-4">
                             <div className="h-8 w-8 overflow-hidden rounded-lg">
                                 <img
-                                    src="/logo.png"
+                                    src="https://txchyon.com/images/logo.png"
                                     alt="Txchyon Logo"
-                                    className="h-full w-full object-contain"
+                                    className="h-full w-full object-cover"
                                 />
                             </div>
                             <span className="text-xl font-bold tracking-tight text-white">

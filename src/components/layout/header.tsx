@@ -18,9 +18,9 @@ export function Header() {
                 <Link href="/" className="flex items-center gap-3 group">
                     <div className="relative h-9 w-9 overflow-hidden rounded-xl transition-transform group-hover:scale-105">
                         <img
-                            src="/logo.png"
+                            src="https://txchyon.com/images/logo.png"
                             alt="Txchyon Logo"
-                            className="h-full w-full object-contain"
+                            className="h-full w-full object-cover"
                         />
                     </div>
                     <div className="flex flex-col">
