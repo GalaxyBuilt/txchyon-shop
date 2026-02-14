@@ -25,7 +25,7 @@ export function ProductContent({ product }: { product: Product }) {
         <div className="container mx-auto px-4">
             {/* Navigation Breadcrumb */}
             <div className="mb-12 flex items-center gap-4">
-                <Link href="/shop#playbooks" className="group flex items-center text-[10px] font-black uppercase tracking-[0.2em] text-gray-500 hover:text-white transition-colors">
+                <Link href="/#playbooks" className="group flex items-center text-[10px] font-black uppercase tracking-[0.2em] text-gray-500 hover:text-white transition-colors">
                     <ArrowLeft className="mr-2 h-3 w-3 transition-transform group-hover:-translate-x-1" /> Repository
                 </Link>
                 <ChevronRight className="h-3 w-3 text-gray-800" />
@@ -175,7 +175,7 @@ export function ProductContent({ product }: { product: Product }) {
                     {/* Manual Fallback */}
                     <div className="mt-8 text-center">
                         <p className="text-[9px] font-black text-gray-700 uppercase tracking-[0.3em] italic">
-                            Issues with gateway? <Link href="/shop#how-it-works" className="text-gray-500 hover:text-cyan-400 transition-colors">Manual transfer protocol</Link>
+                            Issues with gateway? <Link href="/#how-it-works" className="text-gray-500 hover:text-cyan-400 transition-colors">Manual transfer protocol</Link>
                         </p>
                     </div>
                 </div>

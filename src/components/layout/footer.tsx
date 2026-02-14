@@ -6,7 +6,7 @@ export function Footer() {
             <div className="container mx-auto px-4">
                 <div className="grid grid-cols-1 md:grid-cols-4 gap-8 mb-12">
                     <div className="col-span-1 md:col-span-2">
-                        <Link href="/shop" className="flex items-center gap-3 mb-4">
+                        <Link href="/" className="flex items-center gap-3 mb-4">
                             <div className="h-8 w-8 overflow-hidden rounded-lg">
                                 <img
                                     src="/logo.png"
@@ -42,8 +42,8 @@ export function Footer() {
                         <h4 className="font-bold text-white mb-4">Support</h4>
                         <ul className="space-y-2">
                             <li><a href="mailto:shop@txchyon.com" className="text-sm text-gray-400 hover:text-cyan-400 transition-colors">Email Support</a></li>
-                            <li><Link href="/shop/terms" className="text-sm text-gray-400 hover:text-cyan-400 transition-colors">Terms of Service</Link></li>
-                            <li><Link href="/shop/privacy" className="text-sm text-gray-400 hover:text-cyan-400 transition-colors">Privacy Policy</Link></li>
+                            <li><Link href="/terms" className="text-sm text-gray-400 hover:text-cyan-400 transition-colors">Terms of Service</Link></li>
+                            <li><Link href="/privacy" className="text-sm text-gray-400 hover:text-cyan-400 transition-colors">Privacy Policy</Link></li>
                         </ul>
                     </div>
                 </div>
